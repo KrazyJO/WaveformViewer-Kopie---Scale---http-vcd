@@ -18,6 +18,15 @@
 		3F294CDE16BA6F4C005405B2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F294CDD16BA6F4C005405B2 /* Default-568h@2x.png */; };
 		3F294CE116BA6F4C005405B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F294CE016BA6F4C005405B2 /* ViewController.m */; };
 		3F294CE416BA6F4C005405B2 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F294CE216BA6F4C005405B2 /* ViewController.xib */; };
+		3F294D0316BA8CE1005405B2 /* ViewerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F294D0216BA8CE1005405B2 /* ViewerCell.m */; };
+		3F294D0616BA9A87005405B2 /* SignalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F294D0516BA9A87005405B2 /* SignalView.m */; };
+		3FCFB5CA16CCE356000075B1 /* ScaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCFB5C916CCE356000075B1 /* ScaleView.m */; };
+		3FCFB5D016CCF10D000075B1 /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCFB5CF16CCF10D000075B1 /* Data.m */; };
+		3FDDC1F216C3C4A8001DC035 /* DirectionPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDC1F116C3C4A8001DC035 /* DirectionPanGestureRecognizer.m */; };
+		CEC555EA16F0F79900E7138A /* Signal.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC555E516F0F79900E7138A /* Signal.m */; };
+		CEC555EB16F0F79900E7138A /* simple.vcd in Resources */ = {isa = PBXBuildFile; fileRef = CEC555E616F0F79900E7138A /* simple.vcd */; };
+		CEC555EC16F0F79900E7138A /* VCDParser.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC555E816F0F79900E7138A /* VCDParser.m */; };
+		CEC555ED16F0F79900E7138A /* very_simple.vcd in Resources */ = {isa = PBXBuildFile; fileRef = CEC555E916F0F79900E7138A /* very_simple.vcd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +46,22 @@
 		3F294CDF16BA6F4C005405B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3F294CE016BA6F4C005405B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3F294CE316BA6F4C005405B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		3F294D0116BA8CE1005405B2 /* ViewerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewerCell.h; sourceTree = "<group>"; };
+		3F294D0216BA8CE1005405B2 /* ViewerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewerCell.m; sourceTree = "<group>"; };
+		3F294D0416BA9A87005405B2 /* SignalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignalView.h; sourceTree = "<group>"; };
+		3F294D0516BA9A87005405B2 /* SignalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignalView.m; sourceTree = "<group>"; };
+		3FCFB5C816CCE356000075B1 /* ScaleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleView.h; sourceTree = "<group>"; };
+		3FCFB5C916CCE356000075B1 /* ScaleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaleView.m; sourceTree = "<group>"; };
+		3FCFB5CE16CCF10D000075B1 /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Data.h; path = ../Data.h; sourceTree = "<group>"; };
+		3FCFB5CF16CCF10D000075B1 /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Data.m; path = ../Data.m; sourceTree = "<group>"; };
+		3FDDC1F016C3C4A8001DC035 /* DirectionPanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectionPanGestureRecognizer.h; sourceTree = "<group>"; };
+		3FDDC1F116C3C4A8001DC035 /* DirectionPanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectionPanGestureRecognizer.m; sourceTree = "<group>"; };
+		CEC555E416F0F79900E7138A /* Signal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Signal.h; sourceTree = "<group>"; };
+		CEC555E516F0F79900E7138A /* Signal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Signal.m; sourceTree = "<group>"; };
+		CEC555E616F0F79900E7138A /* simple.vcd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = simple.vcd; sourceTree = "<group>"; };
+		CEC555E716F0F79900E7138A /* VCDParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCDParser.h; sourceTree = "<group>"; };
+		CEC555E816F0F79900E7138A /* VCDParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCDParser.m; sourceTree = "<group>"; };
+		CEC555E916F0F79900E7138A /* very_simple.vcd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = very_simple.vcd; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +108,26 @@
 		3F294CCD16BA6F4C005405B2 /* WaveformViewer */ = {
 			isa = PBXGroup;
 			children = (
+				CEC555E416F0F79900E7138A /* Signal.h */,
+				CEC555E516F0F79900E7138A /* Signal.m */,
+				CEC555E616F0F79900E7138A /* simple.vcd */,
+				CEC555E716F0F79900E7138A /* VCDParser.h */,
+				CEC555E816F0F79900E7138A /* VCDParser.m */,
+				CEC555E916F0F79900E7138A /* very_simple.vcd */,
+				3FCFB5CE16CCF10D000075B1 /* Data.h */,
+				3FCFB5CF16CCF10D000075B1 /* Data.m */,
+				3F294D0116BA8CE1005405B2 /* ViewerCell.h */,
+				3F294D0216BA8CE1005405B2 /* ViewerCell.m */,
+				3F294D0416BA9A87005405B2 /* SignalView.h */,
+				3F294D0516BA9A87005405B2 /* SignalView.m */,
 				3F294CD616BA6F4C005405B2 /* AppDelegate.h */,
 				3F294CD716BA6F4C005405B2 /* AppDelegate.m */,
 				3F294CDF16BA6F4C005405B2 /* ViewController.h */,
 				3F294CE016BA6F4C005405B2 /* ViewController.m */,
+				3FCFB5C816CCE356000075B1 /* ScaleView.h */,
+				3FCFB5C916CCE356000075B1 /* ScaleView.m */,
+				3FDDC1F016C3C4A8001DC035 /* DirectionPanGestureRecognizer.h */,
+				3FDDC1F116C3C4A8001DC035 /* DirectionPanGestureRecognizer.m */,
 				3F294CE216BA6F4C005405B2 /* ViewController.xib */,
 				3F294CCE16BA6F4C005405B2 /* Supporting Files */,
 			);
@@ -163,6 +204,8 @@
 				3F294CDC16BA6F4C005405B2 /* Default@2x.png in Resources */,
 				3F294CDE16BA6F4C005405B2 /* Default-568h@2x.png in Resources */,
 				3F294CE416BA6F4C005405B2 /* ViewController.xib in Resources */,
+				CEC555EB16F0F79900E7138A /* simple.vcd in Resources */,
+				CEC555ED16F0F79900E7138A /* very_simple.vcd in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +219,13 @@
 				3F294CD416BA6F4C005405B2 /* main.m in Sources */,
 				3F294CD816BA6F4C005405B2 /* AppDelegate.m in Sources */,
 				3F294CE116BA6F4C005405B2 /* ViewController.m in Sources */,
+				3F294D0316BA8CE1005405B2 /* ViewerCell.m in Sources */,
+				3F294D0616BA9A87005405B2 /* SignalView.m in Sources */,
+				3FDDC1F216C3C4A8001DC035 /* DirectionPanGestureRecognizer.m in Sources */,
+				3FCFB5CA16CCE356000075B1 /* ScaleView.m in Sources */,
+				3FCFB5D016CCF10D000075B1 /* Data.m in Sources */,
+				CEC555EA16F0F79900E7138A /* Signal.m in Sources */,
+				CEC555EC16F0F79900E7138A /* VCDParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +344,7 @@
 				3F294CE916BA6F4C005405B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
